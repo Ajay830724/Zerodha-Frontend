@@ -1,7 +1,7 @@
 import HomePage from "./landing_page/home/HomePage"
+import "./App.css"
 
-function App() {
- 
+export default function App() { 
   return (
     <>
       <HomePage />
@@ -9,4 +9,3 @@ function App() {
   )
 }
 
-export default App

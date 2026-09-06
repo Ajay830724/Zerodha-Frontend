@@ -1,0 +1,113 @@
+#root{
+    margin:0;
+    padding:0;
+}
+
+p{
+    color:#666666;
+}
+
+/* Home-hero */
+.sign-btn{
+    width: 200px;
+    margin:0 auto;
+    background-color:#387ED1;
+    border-radius:3px
+}
+
+/* Home-stats */
+.stats-2nd{
+    background-color:#f6fbff;
+    padding: 20px;
+}
+
+.stats-img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+/* Home-price */
+.price-box{
+    display:flex;
+    padding:0;
+    margin:0;
+    margin-left:20px;   
+    font-size:10px;
+    /* justify-content:end */
+    align-items:center;
+}
+.price-img{
+    width: 80%;
+    height:80%;
+    object-fit:fill;
+}
+
+/* home-educaion */
+.edu-img{
+    width: 85%;
+    height:85%;
+    object-fit:contain;
+     margin: '0 auto' ;
+}
+
+/* navbar */
+.navbar{
+    height:70px;
+}
+
+.navbar-wrapper {
+  width: 100%;       /* Takes up all available horizontal space */
+  margin: 0;
+  margin: 0;
+  padding: 0;   /* Add interior padding instead of margin if you want breathing room */
+}
+
+/* footer */
+ul{
+    list-style-type: none;
+    padding:0;
+}
+ul li{
+    margin:10px 0 10px 0;
+}
+.link{
+    text-decoration:none;
+    color:#666666;
+    font-size:14px;
+}
+
+.foot-phera{
+    font-size:13px;
+    padding:0;
+    margin:6px;
+}
+
+.foot-social{
+    display:flex;
+}
+.foot-social li a{
+    margin-right:20px;
+    font-size: 18px;
+}
+.foot-social li a:hover{
+    color:#387ED1;
+    font-weight:bold;
+}
+
+.foot-last-link{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+.foot-last-link li{
+    margin:10px;
+}
+
+
+footer{
+    background-color:#fbfbfb;
+    padding:20px;
+}

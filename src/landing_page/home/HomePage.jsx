@@ -5,6 +5,7 @@ import Stats from "./Stats"
 import Footer from "../Footer"
 import Navbar from "../Navbar"
 import OpenAccount from "../OpenAccount"
+import Awards from "./Awards"
 
 export default function HomePage(){
     return (
