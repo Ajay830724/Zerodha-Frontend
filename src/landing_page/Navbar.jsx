@@ -2,8 +2,7 @@ import {Link} from "react-router-dom"
 
 export default function Navbar(){
     return (
-        <div className="container border-bottom navbar-wrapper mb-5 ">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom navbar-wrapper mb-5 ">
             <div className="container-fluid d-flex">
                 <Link className="navbar-brand" to="/">
                     <img src="media/logo.svg" style={{width:"150px", height:"20px"}}alt="" />
@@ -17,7 +16,7 @@ export default function Navbar(){
                             <Link class="nav-link" aria-current="page" to="/signup">Signup</Link>
                         </li>
                         <li class="nav-item px-3">
-                            <Link class="nav-link" to="/abut">About</Link>
+                            <Link class="nav-link" to="/about">About</Link>
                         </li>
                         <li class="nav-item px-3">
                             <Link class="nav-link" to="/products">Products</Link>
@@ -34,6 +33,5 @@ export default function Navbar(){
                 </div>
             </div>
             </nav>
-        </div>
     )
 }
