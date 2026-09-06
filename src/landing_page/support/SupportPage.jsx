@@ -1,13 +1,9 @@
 import Hero from "./Hero"
-import Navbar from "../Navbar"
-import Footer from "../Footer"
 
-export default function SignupPage(){
+export default function SupportPage(){
     return (
         <>
-            <Navbar />
             <Hero/>
-            <Footer />
         </>
     )
 }

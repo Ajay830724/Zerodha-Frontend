@@ -7,10 +7,8 @@ import Footer from "../Footer"
 export default function AboutPage(){
     return (
          <>
-            <Navbar />
             <Hero />
             <People/>
-            <Footer/>
         </>
     )
 }
